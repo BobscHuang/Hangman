@@ -1,8 +1,6 @@
 import string
 import random
 
-print("Welcome to Bob's amazing hangman program!")
-
 Item = list("_")
 
 Furits_Veggies = [
@@ -252,7 +250,7 @@ while True:
             #calculates turns left
             
             Tries = Tries + 1 
-            print("Unforturenetly '" + Guess_1 + "' is not in this word")
+            print("unfortunately '" + Guess_1 + "' is not in this word")
         print("The letters you have yet to chose are:")
         print(Letters)
 
@@ -450,7 +448,7 @@ while True:
             print("                       ╩ ╚═╝╚═╝  ╚╩╝╚═╝╝╚╝")
             print(" ")
             
-            print("Congratz! You won!")
+            print("Congratulations! You won!")
         
             break
 
